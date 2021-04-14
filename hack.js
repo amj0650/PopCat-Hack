@@ -4,7 +4,7 @@ var event = new KeyboardEvent('keydown', {
 });
 
 setInterval(function(){
-	for (i = 0; i < 100; i++) {
+	for (i = 0; i < 200; i++) {
 		document.dispatchEvent(event);
 	}
 }, 0);
